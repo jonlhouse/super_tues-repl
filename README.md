@@ -1,6 +1,6 @@
 # SuperTues::Repl
 
-TODO: Write a gem description
+SuperTues::Repl is a interactive command line REPL for the SuperTuesday board game.
 
 ## Installation
 
@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The REPL can be started in a IRB/Pry session using the SuperTues::Repl::Game.new.play.
+
+## License
+
+The code is released via the MIT license.
+
+SuperTuesday the board game (including all names, descriptions, rules, actions, etc) is copyright
+Peder Lindberg.  Permission has been given to John House for use but Mr. Lindberg reserves all rights 
+to SuperTuesday (boardgame).
 
 ## Contributing
 
