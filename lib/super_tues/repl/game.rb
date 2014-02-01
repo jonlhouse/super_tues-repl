@@ -8,7 +8,11 @@ module SuperTues
 
       def initialize
         @scheme = HighLine::ColorScheme.new do |cs|
-          cs[:headline] = [:bold, :yellow]          
+          cs[:headline] = [:bold, :yellow]
+          cs[:red] = [:red]
+          cs[:blue] = [:blue]
+          cs[:yellow] = [:yellow]
+          cs[:green] = [:green]
         end
         HighLine.color_scheme = @scheme
       end
@@ -82,14 +86,14 @@ module SuperTues
 
       def game_loop
         loop do
+          clear
           today = Day.new(@game)
           today.print
-          today.take_turns
+          today.events
           ask "Press any key for tomorrow."
           @game.tomorrow!
         end
       end
-
     end    
   end
 end
