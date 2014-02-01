@@ -1,2 +1,13 @@
+require 'highline/import'
+require 'super_tues/board'
+
 require "super_tues/repl/version"
-require "super_tues/repl/runner"
+require "super_tues/repl/game"
+require "super_tues/repl/candidate_picker"
+require "super_tues/repl/console_helpers"
+require "super_tues/repl/day"
+
+module SuperTues
+  module Repl
+  end
+end

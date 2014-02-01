@@ -1,2 +1,1 @@
-require 'super_tues/board'
-require 'super_tues/repl'
+require 'super_tues/repl/all'

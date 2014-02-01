@@ -1,2 +1,4 @@
-#!
-/usr/bin/env ruby -I../lib -e "require 'super_tues/repl' ; SuperTues::Repl::Game.new.play"
+#!/usr/bin/env ruby 
+require 'super_tues/repl/all'
+
+SuperTues::Repl::Game.new.play
